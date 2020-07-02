@@ -2,7 +2,7 @@
 ### Creating a git repository
 `git init`: inside the directory to create a respository
 
-`git remote add origin git@github.com:DirectoryChain`: adds initial local repository to online repository
+`git remote add origin git@github.com:DirectoryChain`: adds initial local repository to online repository - copy paste from github after making a new repository there
 
 `git clone [link to repositoryy]`: getting an online repository onto local device
 
@@ -16,3 +16,7 @@
 `git status`: lists what commits and changes have been made
 
 `git diff`: lists all the differences
+
+### notes
+
+The `.gitignore` files speciffies what files you don't want saved on github. The `node_modules` folder should always be ignored.

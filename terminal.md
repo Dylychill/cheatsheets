@@ -12,3 +12,15 @@
 `touch filename`: make a file called filename
 
 `npm`: node package manager
+
+`npm install -g [package name]`: installs from the npm some package (-g means global, otherwise in current directory)
+
+`Ctlr-C`: stops execution of most things
+
+### Create React App
+
+`create-react-app [name]`: creates a new react project with given name in
+
+`npm start`: inside a react project, opens in browser
+
+`npm run build`: to build your app
