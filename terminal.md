@@ -24,3 +24,13 @@
 `npm start`: inside a react project, opens in browser
 
 `npm run build`: to build your app
+
+### Firebase deploy
+
+`firebase login`: to login
+
+`firebase init`: initialie the project. Note, set public directory to "build" or whatever to match what your project is using.
+
+`firebase deploy`: uploads your stuff online to the firebase site
+
+`npm run build`: runs the "build" script in the directory which is needed to prep for firebase deploy.
