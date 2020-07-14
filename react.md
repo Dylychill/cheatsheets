@@ -70,3 +70,26 @@ function App(){
     </div>
 }
 ```
+
+### useEffect
+- useEffect is for code to run at specific times indicated by the array argument. Empty arrays mean run once at startup, while elements in the array will prompt running whenever they change.
+
+```js
+function App(){
+  useEffect(()=>{
+  }, [])
+  return <div>hello world</div>
+}
+```
+
+**or use useEffect more dynamically**
+
+```js
+function Person(props){
+  useEffect(()=>{
+    // this code will run EVERY time
+    // that the persons "age" changes
+  }, [props.age])
+  return <div>{props.age}</div>
+}
+```
