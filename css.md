@@ -135,3 +135,31 @@ html { /* MOBILE */
 ```
 - you can use `rem` units to scale other elements on your page in relation to that `font-size` on your `<html>` element.
 - Note: font size is sort of special, cause you really need that to be legible and it can't get that small or large and be reasonable.
+
+### Animations
+
+```css
+.my-button{
+  transition:all 0.2s; /* a "transition" on your animation */
+}
+.my-button:hover{
+  transform:scale(1.2,1.2) translate(100px, 50px);
+}
+```
+
+Using "transform" or "opacity" for animations makes your application WAY more performant and will not slow down the page, even with thousands of animations running.
+
+**long-running animations**
+```css
+.logo{
+  animation: spinny infinite 20s linear;
+}
+@keyframes spinny {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+```
