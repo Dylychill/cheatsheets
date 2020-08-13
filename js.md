@@ -103,7 +103,7 @@ var n = 2==='2' ? 10 : 'hello' // prints "hello"
 function Header(){
     const [settings, setSettings] = useState(false)
     return <div>
-        { settingsToggled ? 
+        { settingsToggled ?
             <SettingsMenu /> :
             <ToggleButton />
         }
