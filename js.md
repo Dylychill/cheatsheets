@@ -78,6 +78,16 @@ if(3=='3') { // == only compares value
 if(3==='3') { // === compares value AND type
     console.log('nope')
 }
+if(3!=='3') { // === compares value AND type, ! means not and replaces a = symbol
+    console.log('yess')
+}
+if (true&&false) { // AND
+    console.log('nope')
+}
+if (true || false) { // OR
+    console.log('YES!!')
+}
+
 
 // "ternary expression" one-line if statement
 // evaluates the expression ? if true pick first variable : if false pick the second
@@ -88,4 +98,23 @@ var n = 2==='2' ? 10 : 'hello' // prints "hello"
 <div style={{
     color: darkMode ? 'white' : 'black'
 }} />
+
+// or for dynamically rendering components
+function Header(){
+    const [settings, setSettings] = useState(false)
+    return <div>
+        { settingsToggled ? 
+            <SettingsMenu /> :
+            <ToggleButton />
+        }
+    </div>
+}
+
+// conditions - && is common
+// below, MyComponent will only render if condition is true
+const [condition, setCondition] = useState(true);
+return <div>
+    {condition && <MyComponent />}
+    {!condition && <TheOtherComponent />}
+</div>
 ```
