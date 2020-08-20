@@ -32,3 +32,6 @@ Some examples of useful React libraries.
 
 - formik (form in React)
 - yup (data validation)
+
+### Other web app frameworks
+- vue.js - independently managed. like React.
