@@ -7,7 +7,7 @@
 `git clone [link to repositoryy]`: getting an online repository onto local device
 - Fork is like clone, except it pushes onto online git repos from someoe elses.
 
-### save your code
+### Save your code
 `git add .`: adds indicate files to the staging area: dot is all files in directory
 
 `git commit -m "my message"`: commits staged changes with a message
@@ -18,7 +18,7 @@
 
 `git diff`: lists all the differences
 
-### notes
+### Notes
 
 The `.gitignore` files speciffies what files you don't want saved on github. The `node_modules` folder should always be ignored.
 

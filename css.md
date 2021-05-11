@@ -113,7 +113,7 @@ img {
 - `align-items` aligns opposite the direction axis
 - `justify-content`: aligns items on the direction axis
 
-\![Flexbox cross and main axis diagram](\flexbox.PNG)
+\![Flexbox cross and main axis diagram](\flexbox.png)
 
 ### response CSS
 ```css
